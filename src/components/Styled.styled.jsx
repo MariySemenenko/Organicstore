@@ -2,8 +2,9 @@ import styled from '@emotion/styled';
 
 export const Nav = styled.nav`
   background-color: #f4f5f6;
-  height: 50px;
-  margin: 0;
+  /* height: 50px; */
+ padding-top: 6px;
+ padding-bottom: 7px;
 `;
 
 export const H1 = styled.h1`
@@ -33,6 +34,17 @@ export const Img = styled.img`
   width: 20px;
   height: 20px;
   padding-top: 15px;
+`;
+
+export const H2 = styled.h1`
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 14px;
+  color: #9c9c9c;
+  font-weight: normal;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 `;
 
 export const Ul = styled.ul`
