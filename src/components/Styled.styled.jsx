@@ -20,6 +20,10 @@ export const Number = styled.span`
   text-transform: capitalize;
   cursor: pointer;
   padding-right: 15px;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const H1 = styled.h1`
@@ -30,6 +34,10 @@ export const H1 = styled.h1`
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const Line = styled.span`
@@ -41,6 +49,10 @@ export const Img = styled.img`
   width: 20px;
   height: 20px;
   vertical-align: sub;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const H2 = styled.h1`
@@ -52,6 +64,10 @@ export const H2 = styled.h1`
   margin-left: 15px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const Ul = styled.ul`
@@ -73,10 +89,20 @@ export const Li = styled.li`
   line-height: 1.42857143;
   font-size: 14px;
   padding-right: 15px;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const Heart = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   padding-right: 10px;
+  fill: #9c9c9c;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
 `;
