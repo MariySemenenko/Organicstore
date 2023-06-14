@@ -1,20 +1,9 @@
 import styled from '@emotion/styled';
 
-export const Nav = styled.div`
+export const Nav = styled.nav`
   background-color: #f4f5f6;
   height: 50px;
   margin: 0;
-`;
-
-export const Ul = styled.ul`
-  /* position: fixed; */
-  cursor: pointer;
-  display: flex;
-  list-style: none;
-  position: relative;
-  float: right;
-  margin-right: 30px;
-  margin-top: 9px;
 `;
 
 export const H1 = styled.h1`
@@ -45,6 +34,19 @@ export const Img = styled.img`
   height: 20px;
   padding-top: 15px;
 `;
+
+export const Ul = styled.ul`
+  /* position: fixed; */
+  cursor: pointer;
+  display: flex;
+  list-style: none;
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  margin-top: 9px;
+  padding-right: 230px;
+`;
+
 export const Li = styled.li`
   font-family: 'Roboto', sans-serif;
   color: #9c9c9c;
