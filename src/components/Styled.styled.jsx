@@ -12,10 +12,9 @@ export const Ul = styled.ul`
   display: flex;
   list-style: none;
   position: relative;
-    float: right;
-    margin-right: 30px;
-    margin-top: 9px;
-    
+  float: right;
+  margin-right: 30px;
+  margin-top: 9px;
 `;
 
 export const H1 = styled.h1`
@@ -42,12 +41,14 @@ export const Line = styled.span`
 `;
 export const Img = styled.img`
   color: #9c9c9c;
-  width: 35px;
+  width: 20px;
+  height: 20px;
+  padding-top: 15px;
 `;
 export const Li = styled.li`
- font-family: 'Roboto', sans-serif;
-    color: #9c9c9c;
-    line-height: 1.42857143;
-    font-size: 16px;
-    padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #9c9c9c;
+  line-height: 1.42857143;
+  font-size: 16px;
+  padding-right: 15px;
 `;
