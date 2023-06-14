@@ -66,3 +66,8 @@ export const Li = styled.li`
   font-size: 16px;
   padding-right: 15px;
 `;
+
+export const Heart = styled.img`
+ width: 20px;
+    height: 20px;
+`;

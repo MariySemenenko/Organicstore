@@ -1,5 +1,6 @@
-import { Nav, Ul, H1, Number, Line, Img, Li, H2  } from 'components/Styled.styled';
+import { Nav, Ul, H1, Number, Line, Img, Li, H2, Heart  } from 'components/Styled.styled';
 import leterIcon from '../icons/ulitka.svg'
+import heartIcon from '../icons/icons8-heart.gif'
 export const Header = () => {
   return (
     <Nav>
@@ -10,7 +11,7 @@ export const Header = () => {
 
       <Line></Line>
 
-      <Img src={leterIcon} alt="Heart Icon" />
+      <Img src={leterIcon} alt="Leter Icon" />
      <H2>Organicstore@Gmail.Com</H2>
 
       
@@ -19,7 +20,7 @@ export const Header = () => {
         
         <Li>Account</Li>
         <Line></Line>
-        <span>♥</span>
+        <Heart src={heartIcon} alt='Heart Icon' />
         <Li>Whishlist</Li>
         <Line></Line>
         <Li>Whishlist</Li>
