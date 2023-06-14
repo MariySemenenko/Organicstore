@@ -6,8 +6,12 @@ export const Nav = styled.nav`
   padding-top: 6px;
   padding-bottom: 7px;
   display: flex;
+  align-items: center;
 `;
 
+export const None = styled.ul`
+  list-style: none;
+`;
 
 export const Number = styled.span`
   color: #7fb401;
@@ -51,7 +55,7 @@ export const H2 = styled.h1`
 `;
 
 export const Ul = styled.ul`
-  /* position: fixed; */
+ 
   cursor: pointer;
   display: flex;
   list-style: none;
@@ -67,7 +71,7 @@ export const Li = styled.li`
   font-family: 'Roboto', sans-serif;
   color: #9c9c9c;
   line-height: 1.42857143;
-  font-size: 16px;
+  font-size: 14px;
   padding-right: 15px;
 `;
 

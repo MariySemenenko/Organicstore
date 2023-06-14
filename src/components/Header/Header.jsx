@@ -8,13 +8,14 @@ import {
   Li,
   H2,
   Heart,
+  None,
 } from 'components/Styled.styled';
 import leterIcon from '../icons/ulitka.svg';
 import heartIcon from '../icons/icons8-heart.gif';
 export const Header = () => {
   return (
     <Nav>
-      <ul>
+      <None>
         <li>
           <H1>
             Order On Phone:<Number>+321 453 68 739</Number>{' '}
@@ -25,7 +26,7 @@ export const Header = () => {
         </li>
 
         
-      </ul>
+      </None>
 
       <Ul>
         <Li>Account</Li>
