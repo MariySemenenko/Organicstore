@@ -13,7 +13,6 @@ import {
   User,
 } from 'components/Styled.styled';
 import leterIcon from '../icons/ulitka.svg';
-// import HeartIcon from '../icons/heart5.png';
 import UserIcon from '../icons/user.png';
 import { HeartIconModal } from 'components/HeartIconModal/HeartIconModal';
 
@@ -36,7 +35,9 @@ export const Header = () => {
         <User src={UserIcon} alt="User Icon" />
         <Li>Account</Li>
         <Line></Line>
+
         <HeartIconModal />
+        
         <Li>Whishlist</Li>
         <Line></Line>
         <Li>Whishlist</Li>

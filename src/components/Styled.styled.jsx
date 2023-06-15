@@ -71,7 +71,6 @@ export const H2 = styled.h1`
 `;
 
 export const Ul = styled.ul`
- 
   cursor: pointer;
   display: flex;
   list-style: none;
@@ -84,7 +83,6 @@ export const Ul = styled.ul`
 `;
 
 export const User = styled.img`
-
   width: 20px;
   height: 20px;
   vertical-align: sub;
@@ -113,5 +111,38 @@ export const Heart = styled.img`
   &:hover {
     transform: scale(1.03);
   }
+`;
 
+///////////////////////////
+
+export const Modalbackdrop = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Modalcontent = styled.button`
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+`;
+
+export const Modalclose = styled.button`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
 `;
