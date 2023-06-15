@@ -132,11 +132,12 @@ export const Modalcontent = styled.button`
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  width: 100%;
+  max-width: 800px;
+  width: 800px;
+  height: 600px
 `;
 
-export const Modalclose = styled.button`
+export const Modalclose = styled.div`
   position: absolute;
   top: 10px;
   right: 10px;
