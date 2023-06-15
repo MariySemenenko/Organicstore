@@ -8,14 +8,17 @@ import {
   Line,
   Img,
   Li,
+  Heart,
   H2,
   None,
   User,
 } from 'components/Styled.styled';
+
+
 import leterIcon from '../icons/ulitka.svg';
 import UserIcon from '../icons/user.png';
-import { HeartIconModal } from 'components/HeartIconModal/HeartIconModal';
-
+import {WishlistModal} from '../WishlistModal/WishlistModal'
+import HeartIcon from '../icons/heart5.png'
 
 export const Header = () => {
   return (
@@ -35,10 +38,9 @@ export const Header = () => {
         <User src={UserIcon} alt="User Icon" />
         <Li>Account</Li>
         <Line></Line>
+        <Heart src={HeartIcon} alt="Heart Icon" />
 
-        <HeartIconModal />
-        
-        <Li>Whishlist</Li>
+        <WishlistModal />
         <Line></Line>
         <Li>Whishlist</Li>
         <Line></Line>
