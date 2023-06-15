@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Organicstore/static/css/main.7acaea2f.css",
-    "main.js": "/Organicstore/static/js/main.fc3af094.js",
+    "main.js": "/Organicstore/static/js/main.e06831d3.js",
     "index.html": "/Organicstore/index.html",
     "static/media/ulitka.svg": "/Organicstore/static/media/ulitka.b34d9d0b75d82d254c7bb654af526381.svg",
     "main.7acaea2f.css.map": "/Organicstore/static/css/main.7acaea2f.css.map",
-    "main.fc3af094.js.map": "/Organicstore/static/js/main.fc3af094.js.map"
+    "main.e06831d3.js.map": "/Organicstore/static/js/main.e06831d3.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.fc3af094.js"
+    "static/js/main.e06831d3.js"
   ]
 }
