@@ -83,6 +83,15 @@ export const Ul = styled.ul`
   padding-left: 300px;
 `;
 
+export const User = styled.img`
+
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  padding-right: 15px;
+  fill: #9c9c9c;
+`;
+
 export const Li = styled.li`
   font-family: 'Roboto', sans-serif;
   color: #9c9c9c;
@@ -96,8 +105,8 @@ export const Li = styled.li`
 `;
 
 export const Heart = styled.img`
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   padding-right: 10px;
   fill: #9c9c9c;
 

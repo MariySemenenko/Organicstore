@@ -1,3 +1,5 @@
+
+
 import {
   Nav,
   Ul,
@@ -7,11 +9,15 @@ import {
   Img,
   Li,
   H2,
-  Heart,
   None,
+  User,
 } from 'components/Styled.styled';
 import leterIcon from '../icons/ulitka.svg';
-import HeartIcon from '../icons/heart.svg';
+// import HeartIcon from '../icons/heart5.png';
+import UserIcon from '../icons/user.png';
+import { HeartIconModal } from 'components/HeartIconModal/HeartIconModal';
+
+
 export const Header = () => {
   return (
     <Nav>
@@ -27,12 +33,10 @@ export const Header = () => {
       </None>
 
       <Ul>
+        <User src={UserIcon} alt="User Icon" />
         <Li>Account</Li>
         <Line></Line>
-        
-          <Heart src={HeartIcon} alt="Heart Icon" />
-        
-
+        <HeartIconModal />
         <Li>Whishlist</Li>
         <Line></Line>
         <Li>Whishlist</Li>
