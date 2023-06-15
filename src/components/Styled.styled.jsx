@@ -128,7 +128,7 @@ export const Modalbackdrop = styled.div`
 `;
 
 export const Modalcontent = styled.button`
-  background-color: #fff;
+  background-color: #f4f5f6;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
