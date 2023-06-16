@@ -1,0 +1,19 @@
+
+.animated-images-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .animated-image {
+  
+    margin: 10px;
+
+    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            position: relative;
+            /* left: 100%; */
+  }

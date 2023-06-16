@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Modal } from '../Modal/Modal'; 
 import { Li } from '../Styled.styled'
+import { AnimatedImages } from '../AnimatedImages/AnimatedImages'
 
 export const WishlistModal = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ export const WishlistModal = () => {
       <Modal onClose={closeModal}>
         <h1>Modal Content</h1>
         <p>This is the content of the modal.</p>
+        <AnimatedImages />
       </Modal>
     )}
   </>
