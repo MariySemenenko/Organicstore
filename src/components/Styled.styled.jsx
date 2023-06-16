@@ -78,8 +78,7 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  /* padding-right: 230px; */
-  /* padding-left: 300px; */
+  margin-left: 300px;
 `;
 
 export const User = styled.img`
@@ -193,6 +192,4 @@ export const H1wishlist = styled.h1`
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   color: white;
-
- 
 `;
