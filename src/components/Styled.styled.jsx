@@ -78,8 +78,8 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  padding-right: 230px;
-  padding-left: 300px;
+  /* padding-right: 230px; */
+  /* padding-left: 300px; */
 `;
 
 export const User = styled.img`
@@ -87,7 +87,18 @@ export const User = styled.img`
   height: 20px;
   vertical-align: sub;
   padding-right: 15px;
-  fill: #9c9c9c;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+`;
+
+export const Arrow = styled.img`
+  width: 10px;
+  height: 10px;
+  vertical-align: sub;
+  padding-right: 15px;
+  margin-top: 5px;
 `;
 
 export const Li = styled.li`
@@ -106,7 +117,29 @@ export const Heart = styled.img`
   width: 18px;
   height: 18px;
   padding-right: 10px;
-  fill: #9c9c9c;
+  margin-left: 15px;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+`;
+
+export const Truck = styled.img`
+  width: 18px;
+  height: 18px;
+  padding-right: 10px;
+  margin-left: 15px;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+`;
+
+export const Heartmodal = styled.img`
+  width: 18px;
+  height: 18px;
+  padding-right: 10px;
+  fill: white;
   margin-left: 15px;
 
   &:hover {
@@ -154,11 +187,11 @@ export const Modalclose = styled.div`
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #9c9c9c;
+  color: #c0bdbd;
 `;
 export const H1wishlist = styled.h1`
   font-size: 20px;
-
+  font-family: 'Roboto', sans-serif;
   color: white;
 
  

@@ -1,6 +1,7 @@
 
 
 import {
+  Truck,
   Nav,
   Ul,
   H1,
@@ -12,13 +13,16 @@ import {
   H2,
   None,
   User,
+  Arrow,
 } from 'components/Styled.styled';
 
 
-import leterIcon from '../icons/ulitka.svg';
+import leterIcon from '../icons/email.png';
 import UserIcon from '../icons/user.png';
 import {WishlistModal} from '../WishlistModal/WishlistModal'
-import HeartIcon from '../icons/heart5.png'
+import HeartIcon from '../icons/heart1.png'
+import TruckIcon from '../icons/truck.png'
+import ArrowIcon from '../icons/arrow.png'
 
 export const Header = () => {
   return (
@@ -39,11 +43,13 @@ export const Header = () => {
         <Li>Account</Li>
         <Line></Line>
         <Heart src={HeartIcon} alt="Heart Icon" />
-
         <WishlistModal />
         <Line></Line>
+        <Truck src={TruckIcon} alt="Truck Icon" />
         <Li>Whishlist</Li>
         <Line></Line>
+        <Li>English</Li>
+        <Arrow src={ArrowIcon} alt="Attow Icon" />
       </Ul>
     </Nav>
   );
