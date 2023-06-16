@@ -107,6 +107,7 @@ export const Heart = styled.img`
   height: 18px;
   padding-right: 10px;
   fill: #9c9c9c;
+  margin-left: 15px;
 
   &:hover {
     transform: scale(1.03);
@@ -127,14 +128,22 @@ export const Modalbackdrop = styled.div`
   justify-content: center;
 `;
 
+export const Backgraund = styled.div`
+  background-color: #7fb401;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+`;
+
 export const Modalcontent = styled.button`
-  background-color: #f4f5f6;
+  /* background-color: white; */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   max-width: 800px;
   width: 800px;
-  height: 600px
+  height: 600px;
+  padding-bottom: 300px;
 `;
 
 export const Modalclose = styled.div`
@@ -145,5 +154,12 @@ export const Modalclose = styled.div`
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #999;
+  color: #9c9c9c;
+`;
+export const H1wishlist = styled.h1`
+  font-size: 20px;
+
+  color: white;
+
+ 
 `;
