@@ -1,5 +1,3 @@
-
-
 import {
   Truck,
   Nav,
@@ -16,17 +14,19 @@ import {
   Arrow,
 } from 'components/Styled.styled';
 
-
 import leterIcon from '../icons/email.png';
 import UserIcon from '../icons/user.png';
-import {WishlistModal} from '../WishlistModal/WishlistModal'
 import HeartIcon from '../icons/heart1.png'
 import TruckIcon from '../icons/truck.png'
 import ArrowIcon from '../icons/arrow.png'
+//import { NavLink } from "react-router-dom";
+//import { Outlet } from "react-router-dom";
+
+import {WishlistModal} from '../WishlistModal/WishlistModal'
 
 export const Header = () => {
   return (
-    <Nav>
+    <Nav >
       <None>
         <li>
           <H1>
@@ -46,7 +46,10 @@ export const Header = () => {
         <WishlistModal />
         <Line></Line>
         <Truck src={TruckIcon} alt="Truck Icon" />
+        {/* <NavLink to="/whishlist"> */}
         <Li>Whishlist</Li>
+      {/* </NavLink> */}
+      {/* <Outlet /> */}
         <Line></Line>
         <Li>English</Li>
         <Arrow src={ArrowIcon} alt="Attow Icon" />

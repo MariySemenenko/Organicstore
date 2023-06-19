@@ -4,7 +4,6 @@ export const Nav = styled.nav`
   background-color: #f4f5f6;
   height: 50px;
   padding-top: 6px;
-  padding-bottom: 7px;
   display: flex;
   align-items: center;
 `;
@@ -78,7 +77,7 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  margin-left: 300px;
+  margin-left: 200px;
 `;
 
 export const User = styled.img`
@@ -168,7 +167,6 @@ export const Backgraund = styled.div`
 `;
 
 export const Modalcontent = styled.button`
-  /* background-color: white; */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
