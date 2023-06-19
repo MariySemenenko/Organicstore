@@ -51,9 +51,9 @@ export const Header = () => {
 
           <Line></Line>
           <Truck src={TruckIcon} alt="Truck Icon" />
-          <li>
+          <Li>
             <NavLink to="/whishlist">Whishlist</NavLink>
-          </li>
+          </Li>
 
           <Line></Line>
           <Li>English</Li>
