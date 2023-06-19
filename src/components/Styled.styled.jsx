@@ -117,7 +117,13 @@ export const Li = styled.li`
   }
 `;
 
+// export const WhishlistLink = styled(NavLink)`
+//   color: green; 
 
+//   &.active {
+//     color: orange;
+//   }
+// `;
 
 export const Heart = styled.img`
   width: 18px;

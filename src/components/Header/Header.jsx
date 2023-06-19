@@ -13,6 +13,7 @@ import {
   User,
   Arrow,
   HeaderContainer,
+  
 } from 'components/Styled.styled';
 
 import leterIcon from '../icons/email.png';
@@ -52,7 +53,7 @@ export const Header = () => {
           <Line></Line>
           <Truck src={TruckIcon} alt="Truck Icon" />
           <Li>
-            <NavLink to="/whishlist">Whishlist</NavLink>
+            <NavLink  to="/whishlist">Whishlist</NavLink >
           </Li>
 
           <Line></Line>
