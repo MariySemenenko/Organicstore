@@ -15,6 +15,7 @@ export const Nav = styled.nav`
 
 export const None = styled.ul`
   list-style: none;
+  padding-right: 200px;
 `;
 
 export const Number = styled.span`
@@ -82,7 +83,7 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  margin-left: 300px;
+  /* margin-left: 300px; */
 `;
 
 export const User = styled.img`
