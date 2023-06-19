@@ -77,7 +77,7 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  margin-left: 300px;
+  margin-left: 200px;
 `;
 
 export const User = styled.img`
