@@ -1,5 +1,11 @@
 import styled from '@emotion/styled';
 
+export const HeaderContainer = styled.div`
+  max-width: 1349px;
+  margin: 0 auto;
+  /* padding: 20px; */
+`;
+
 export const Nav = styled.nav`
   background-color: #f4f5f6;
   height: 50px;
@@ -76,7 +82,7 @@ export const Ul = styled.ul`
   float: right;
   margin-right: 30px;
   margin-top: 9px;
-  margin-left: 200px;
+  margin-left: 300px;
 `;
 
 export const User = styled.img`

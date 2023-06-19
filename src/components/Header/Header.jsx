@@ -12,6 +12,7 @@ import {
   None,
   User,
   Arrow,
+  HeaderContainer,
 } from 'components/Styled.styled';
 
 import leterIcon from '../icons/email.png';
@@ -26,6 +27,7 @@ import {WishlistModal} from '../WishlistModal/WishlistModal'
 
 export const Header = () => {
   return (
+    <HeaderContainer>
     <Nav >
       <None>
         <li>
@@ -55,5 +57,6 @@ export const Header = () => {
         <Arrow src={ArrowIcon} alt="Attow Icon" />
       </Ul>
     </Nav>
+    </HeaderContainer>
   );
 };
