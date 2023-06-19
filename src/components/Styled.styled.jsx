@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 export const Nav = styled.nav`
   background-color: #f4f5f6;
   height: 50px;
-  padding-top: 6px;
   display: flex;
   align-items: center;
 `;
