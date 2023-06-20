@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
   max-width: 1349px;
@@ -117,13 +118,13 @@ export const Li = styled.li`
   }
 `;
 
-// export const WhishlistLink = styled(NavLink)`
-//   color: green; 
+export const WhishlistLink = styled(NavLink)`
+  color: green; 
 
-//   &.active {
-//     color: orange;
-//   }
-// `;
+  &.active {
+    color: orange;
+  }
+`;
 
 export const Heart = styled.img`
   width: 18px;

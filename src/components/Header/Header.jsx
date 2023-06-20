@@ -13,7 +13,7 @@ import {
   User,
   Arrow,
   HeaderContainer,
-  
+  WhishlistLink,
 } from 'components/Styled.styled';
 
 import leterIcon from '../icons/email.png';
@@ -21,7 +21,7 @@ import UserIcon from '../icons/user.png';
 import HeartIcon from '../icons/heart1.png'
 import TruckIcon from '../icons/truck.png'
 import ArrowIcon from '../icons/arrow.png'
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 //import { Outlet } from "react-router-dom";
 
 import { WishlistModal } from '../WishlistModal/WishlistModal'
@@ -53,7 +53,12 @@ export const Header = () => {
           <Line></Line>
           <Truck src={TruckIcon} alt="Truck Icon" />
           <Li>
-            <NavLink  to="/whishlist">Whishlist</NavLink >
+            <WhishlistLink  to="/whishlist">Whishlist</WhishlistLink >
+          </Li>
+
+
+          <Li>
+            <WhishlistLink  to="/whishlist" active >Whishlist</WhishlistLink >
           </Li>
 
           <Line></Line>
@@ -62,7 +67,9 @@ export const Header = () => {
         </Ul>
 
        
-        {/* <Outlet /> */}
+        {/* <Suspense fallback={<Loader />}>
+    <Outlet />
+</Suspense> */}
       </Nav>
     </HeaderContainer>
   );
