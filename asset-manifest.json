@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Organicstore/static/css/main.f01c5cef.css",
-    "main.js": "/Organicstore/static/js/main.e6d4760b.js",
+    "main.js": "/Organicstore/static/js/main.ac432c09.js",
     "index.html": "/Organicstore/index.html",
     "main.f01c5cef.css.map": "/Organicstore/static/css/main.f01c5cef.css.map",
-    "main.e6d4760b.js.map": "/Organicstore/static/js/main.e6d4760b.js.map"
+    "main.ac432c09.js.map": "/Organicstore/static/js/main.ac432c09.js.map"
   },
   "entrypoints": [
     "static/css/main.f01c5cef.css",
-    "static/js/main.e6d4760b.js"
+    "static/js/main.ac432c09.js"
   ]
 }
